@@ -14,7 +14,7 @@ type: page
 <p>
 <h3>📋<strong>自我介绍</strong></h3>  
 
-![](https://raw.githubusercontent.com/zhaoxxxx/zhaoxxxx.github.io/master/images/1.png)
+![Image text](https://raw.githubusercontent.com/zhaoxxxx/zhaoxxxx.github.io/master/images/1.png)<br/>
 
 &nbsp;🔹目前就职于吉林省某软件公司，主攻java<br/>
 
