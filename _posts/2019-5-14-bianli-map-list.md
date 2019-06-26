@@ -19,6 +19,11 @@ for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
   System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue()); 
 }
 ```
+
+
+
+
+
 2.在for-each循环中遍历keys或values。
 
 ```

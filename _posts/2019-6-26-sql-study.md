@@ -14,7 +14,12 @@ SQL（结构化查询语言）是用于访问和操作数据库中的数据的�
 
 SQL是关系数据库系统的标准语言。所有关系数据库管理系统(RDMS)，如MySQL、MS Access、Oracle、Sybase、Informix、
 
-Postgres和SQL Server都使用SQL作为它们的标准数据库语言。 
+Postgres和SQL Server都使用SQL作为它们的标准数据库语言。
+
+
+
+
+ 
 ## RDBMS
 RDBMS 指关系型数据库管理系统，全称 Relational Database Management System。
 
