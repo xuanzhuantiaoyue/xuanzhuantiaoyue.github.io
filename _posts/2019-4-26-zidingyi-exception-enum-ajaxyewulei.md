@@ -1,0 +1,149 @@
+---
+layout: post
+title:  "自定义异常，异常枚举类，ajax请求业务类（纯是为了自己抄代码方便）"
+categories: springBoot
+tags: springBoot
+author: 赵醒醒
+---
+
+* content
+{:toc}
+
+**自定义异常**
+
+```
+public class BizCommonException extends RuntimeException {
+    private int code;
+    private String message;
+
+    public BizCommonException(int code, String message) {
+        super(message);
+        this.code = code;
+        this.message = message;
+    }
+
+    public BizCommonException(BizCommonExceptionEnum bizCommonExceptionEnum) {
+        this.code = bizCommonExceptionEnum.getCode();
+        this.message = bizCommonExceptionEnum.getMessage();
+    }
+
+    public String getMessage() {
+        return this.message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public int getCode() {
+        return this.code;
+    }
+
+    public void setCode(int code) {
+        this.code = code;
+    }
+}
+```
+**自定义异常枚举类**
+
+```
+public enum BizCommonExceptionEnum {
+	SERVER_ERROR(500, "服务器异常,请联系系统运维人员"),
+    NO_THIS_USER(400, "没有此用户")；
+
+
+    private int code;
+    private String message;
+
+    private BizCommonExceptionEnum(int code, String message) {
+        this.code = code;
+        this.message = message;
+    }
+
+    public int getCode() {
+        return this.code;
+    }
+
+    public void setCode(int code) {
+        this.code = code;
+    }
+
+    public String getMessage() {
+        return this.message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+}
+
+```
+**ajax请求业务类**
+
+```
+public class AjaxCommonObject {
+    private int code;
+    private String message;
+    private Object data;
+
+    public AjaxCommonObject() {
+        this.code = 0;
+        this.message = "ajax业务请求正确响应";
+    }
+
+    public AjaxCommonObject(int code, String message) {
+        this.code = code;
+        this.message = message;
+    }
+
+    public AjaxCommonObject(BizCommonException bizCommonException) {
+        this.code = bizCommonException.getCode();
+        this.message = bizCommonException.getMessage();
+    }
+
+    public AjaxCommonObject(BizCommonExceptionEnum bizCommonExceptionEnum) {
+        this.code = bizCommonExceptionEnum.getCode();
+        this.message = bizCommonExceptionEnum.getMessage();
+    }
+
+    public int getCode() {
+        return this.code;
+    }
+
+    public void setCode(int code) {
+        this.code = code;
+    }
+
+    public String getMessage() {
+        return this.message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public Object getData() {
+        return this.data;
+    }
+
+    public void setData(Object data) {
+        this.data = data;
+    }
+}
+
+```
+**应用实例**
+
+```
+	@RequestMapping(value = "/update",method = RequestMethod.POST)
+    @ResponseBody
+    public AjaxCommonObject update(@RequestBody User user) {
+        AjaxCommonObject ajaxCommonObject = new AjaxCommonObject();
+        try {
+            bizService.update(user);
+        } catch (BizCommonException e) {
+            return new AjaxCommonObject(e);
+        }
+        return ajaxCommonObject;
+    }
+```

@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "layui子页给父页传值并关闭当前页"
+categories: 前端
+tags: 前端
+author: 赵醒醒
+---
+
+* content
+{:toc}
+
+**layui子页面传值给父页面**
+
+```
+parent.$('#id').val(id);
+```
+
+**关闭当前页**
+
+```
+var index = parent.layer.getFrameIndex(window.name);
+parent.layer.close(index);//关闭当前页
+```
