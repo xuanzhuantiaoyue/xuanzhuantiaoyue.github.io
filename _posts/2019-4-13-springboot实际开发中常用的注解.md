@@ -33,6 +33,11 @@ privateDemoService demoService;
 @Resource(name="demoService")//默认按name注入，可以通过name和type属性进行选择性注入
 ```
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
 ## @Controller、@RestController、@ResponseBody
 
 @RestController注解相当于@ResponseBody ＋ @Controller合在一起的作用。
