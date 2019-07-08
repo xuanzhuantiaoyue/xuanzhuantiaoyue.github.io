@@ -7,7 +7,7 @@
 
 # Site settings
 title: 赵醒醒的个人主页
-brief-intro: Java Coder
+brief-intro: 码农
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zhaoxxxx.github.io" # the base hostname & protocol for your site
 
