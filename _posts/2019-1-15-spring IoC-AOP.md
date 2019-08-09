@@ -3,7 +3,7 @@ layout: post
 title:  "spring IoC和AOP（自己用加深理解）"
 categories: java
 tags: java
-author: 赵醒醒
+author: 段雨寒
 ---
 
 * content

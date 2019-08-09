@@ -3,7 +3,7 @@ layout: post
 title:  "js接收后台model传递的List对象"
 categories: javascript
 tags: javascript
-author: 赵醒醒
+author: 段雨寒
 ---
 
 * content

@@ -3,7 +3,7 @@ layout: post
 title:  "@Controller, @Service, @Repository, @Component"
 categories: springBoot
 tags: springBoot
-author: 赵醒醒
+author: 段雨寒
 ---
 
 * content

@@ -3,7 +3,7 @@ layout: post
 title:  "Cookie和Session的工作原理及比较"
 categories: 杂记
 tags: 杂记
-author: 赵醒醒
+author: 段雨寒
 ---
 
 * content
