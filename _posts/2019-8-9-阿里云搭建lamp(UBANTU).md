@@ -8,6 +8,11 @@ author: 段雨寒
 
 * content
 {:toc}
+
+sudo apt-get update
+
+sudo apt-get install apache2
+
 ## 备注：
 
 \##################
