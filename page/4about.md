@@ -11,12 +11,11 @@ type: page
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=469065396&auto=1&height=66"></iframe>
 
-![Image text](https://raw.githubusercontent.com/zhaoxxxx/zhaoxxxx.github.io/master/images/1.png)<br/>
 
 <p>
 <h3>📋<strong>自我介绍</strong></h3>  
 
-&nbsp;🔹目前就职于吉林省某软件公司，主攻java<br/>
+&nbsp;🔹目前就职于上海市某软件公司，主攻php<br/>
 
 &nbsp;🔹皮囊在现实中历劫，灵魂在尘世间云游<br/>
 
@@ -42,13 +41,9 @@ type: page
 
 &nbsp;🔹热爱有灵魂的事物<br/>
 
-&nbsp;🔹喜欢纯音乐（网易云ID：赵一醒）<br/>
-
-&nbsp;🔹篮球（忠于黑曼巴精神）<br/>
+&nbsp;🔹喜欢纯音乐<br/>
 
 &nbsp;🔹喜欢打坐冥想 <br/>
-
-&nbsp;🔹喜欢健身<br/>
 
 &nbsp;🔹喜欢云游<br/>
 
@@ -75,30 +70,15 @@ type: page
 <br/>
 
 <hr>
-<h3>🎓<strong>还有，学习是一个非常愉快的过程。共同加油！</strong></h3>
-
-&nbsp;🔹2011.7  高考以优异的成绩考入北京化工大学电子科学与技术专业<br/>
-
-&nbsp;🔹2014.8 以全职人员身份就职于北京互联企信信息技术有限公司<br/>
- 
-&nbsp;🔹2015.7  大学毕业，步入社会，开始琢磨各种赚钱的路子，最后都以失败告终<br/>
-
-&nbsp;🔹2016.5  步入婚姻殿堂（坟墓）--（同期同学中打响革命第一枪的男生）<br/>
-
-&nbsp;🔹2016.8  走南闯北，去过江苏无锡，去过辽宁大连沈阳等许多城市<br/>
-
-&nbsp;🔹2018.5  落叶归根，终于还是回到了长春，找了家软件公司做软件开发<br/>
-
-<hr>
 <h3>🎓<strong>联系我：</strong></h3>
 <p>
-&nbsp;🔹<a href="https://github.com/zhaoxxxx">GitHub</a>欢迎fork<br/>
+&nbsp;🔹<a href="https://github.com/xuanzhuantiaoyue">GitHub</a>欢迎fork<br/>
 
 &nbsp;🔹<a href="https://blog.csdn.net/zx19930309">CSDN</a>踩在大神的肩膀上往上爬<br/>
 
 &nbsp;🔹<a href="https://music.163.com/#/user/home?id=67439493">网易云音乐</a>让敲代码的手飞舞起来<br/>
 
-&nbsp;🔹email：757032662@qq.com<br/>
+&nbsp;🔹email：duanyuhan918@gmail.com<br/>
 
 
 
